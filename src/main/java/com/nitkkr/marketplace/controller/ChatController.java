@@ -4,6 +4,7 @@ import com.nitkkr.marketplace.model.Chat;
 import com.nitkkr.marketplace.model.Message;
 import com.nitkkr.marketplace.service.ChatService;
 import jakarta.servlet.http.HttpServletRequest;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
